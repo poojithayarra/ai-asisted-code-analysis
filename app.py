@@ -5,7 +5,7 @@ from ast_analyzer import parse_code_structure
 from bug_detector import detect_issues
 from complexity import analyze_complexity, plot_complexity_graph
 from quality_analyzer import analyze_quality
-from ai_module import generate_ai_report, generate_documentation
+from ai_module2 import generate_ai_report, generate_documentation
 
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
